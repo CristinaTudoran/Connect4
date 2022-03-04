@@ -1,0 +1,154 @@
+.col-sm {
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    border-width: 50px 60px;
+    border: blue;
+    border-style: solid;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    background-color: white;
+}
+
+.row {
+    width: 700px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#grid{
+    background-color: blue;
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    display: none;
+}
+
+.marker {
+    width: 80px;
+    height: 80px;
+}
+
+#winner-display {
+    display: none;
+    background-color: rgb(50, 50, 206);
+    color: black;
+    width: 40%;
+    height: 10%;
+    overflow: auto;
+    align-self: center;
+    position: relative;
+    justify-content: center;
+    margin-top: 10%;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.modal-content {
+    background-color: rgb(50, 50, 206);
+    margin: auto;
+    padding: 5px;
+    width: 80%;
+    align-self: center;
+    border: 0cm;
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(184, 215, 255);
+}
+
+#reset-button{
+    margin-top: 5px;
+}
+
+#game-play{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.game-name{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#names-form{
+    border: black;
+    border-style: solid;
+    border-width: 1px 1px;
+    width: 500px;
+    background-color: rgb(250, 250, 250);
+    display: none;
+    margin-bottom: 20px;;
+    padding-bottom: 5px;
+}
+
+#computer-form{
+    border: black;
+    border-style: solid;
+    border-width: 1px 1px;
+    width: 500px;
+    background-color: rgb(250, 250, 250);
+    display: none;
+    margin-bottom: 20px;;
+    padding-bottom: 5px;
+}
+
+.col-25 {
+    float: left;
+    width: 23%;
+    margin-top: 6px;
+    text-align: left;
+    margin-left: 2%;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    text-align: left;
+}
+
+#start-game{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+input[type=text], select, textarea {
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+#player-turn{
+    border: black;
+    border-style: solid;
+    border-width: 1px 1px;
+    width: 200px;
+    background-color: rgb(50, 50, 206);
+    display: none;
+    margin-bottom: 20px;;
+    padding-bottom: 5px;
+}
+
+#player-name{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+}
+
+.modal-buttons{
+    margin-bottom: 30px;
+    align-content:space-between;
+}
